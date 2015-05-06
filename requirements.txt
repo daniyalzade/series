@@ -1,0 +1,6 @@
+influxdb==0.4.0
+requests==2.7.0
+six==1.9.0
+ujson==1.33
+utensils==0.41
+wsgiref==0.1.2
