@@ -24,6 +24,4 @@ json_body = [{
         "name": "weather",
         "columns": ["location", "timestamp", "temperature"]
         }]
-#print client.write_points(json_body)
-result = client.query('select * from weather;')
-#print("Result: {0}".format(result))
+client.write_points(json_body)
